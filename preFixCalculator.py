@@ -1,5 +1,5 @@
-
 #mohammad zafari
+# mhdzafari80@gmail.com
 
 def is_operand(k): 
     return k.isdigit() 
@@ -24,8 +24,9 @@ def calculated(expression):
             elif c == '/': 
                 stack.append(o1 / o2 ) 
     return stack.pop() 
-    
+"""    
 if __name__ == "__main__": 
     test1 = "-+8/632"
     print(test1)
     print(calculated(test1)) 
+"""
